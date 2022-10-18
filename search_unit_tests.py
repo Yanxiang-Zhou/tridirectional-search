@@ -29,21 +29,6 @@ def is_valid(graph, path, start, goal):
 
 class SearchUnitTests(unittest.TestCase):
     """
-    Error Diagnostic code courtesy one of our former students -  Mac Chan
-
-    The following unit tests will check for all pairs on romania and random
-    points on atlanta.
-    Comment out any tests that you haven't implemented yet.
-
-    If you failed on Gradescope because of non-optimal path, make sure you pass
-    all the local tests.
-    Change test_count=-1 if you failed the path test on Gradescope, it will run
-    tests on atlanta until it finds a set of points that fail.
-
-    If you failed on Gradescope because of your explored set is too large,
-    there is no easy way to test without a reference implementation.
-    But you can read the pdf slides for the optimized terminal condition.
-
     To run,
     nosetests --nocapture -v search_unit_tests.py:SearchUnitTests
     nosetests --nocapture -v
